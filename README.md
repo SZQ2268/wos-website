@@ -1,37 +1,64 @@
-# WOS网站
+# WOS工作室
 
-#### 介绍
-WOS工作室的小网页
-
-#### 软件架构
-软件架构说明
+`WOS工作室`的小网页
 
 
-#### 安装教程
+### Language
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+---
 
-#### 使用说明
+- [English-英文](README-en.md).
+- 中文(现在)
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+### 这是什么？
 
-#### 参与贡献
+---
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+一个小工作室的网站。
 
+### 技术栈
 
-#### 特技
+---
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+使用的语言:
+- `HTML`
+- `CSS`
+
+其他杂七杂八的文件
+- `SVG`
+- `MD`
+
+### 如何部署
+
+---
+
+可以使用很多种方式，
+但是因为这个网页太简单了，
+所以你可以使用直接使用浏览器打开:-)
+
+如果你真的要部署也可以，我们这里以NPM举例:
+```bash
+npm run build
+npx http-server dist -a 127.0.0.1 -p 8080
+```
+然后浏览器输入`http://127.0.0.1:8080`，可能会报毒，但那是正常的(Http而不是https就会这样)
+
+### 特技
+
+---
+
+- 只是个前端展示页
+- 使用了高级的`SVG`图片(高级在哪里……)
+
+### 许可证
+
+---
+
+`GPL_3.0`许可证[查看详情](LICENSE).
+
+### 贡献者
+
+---
+
+- `SZQ2268`
+- `屏幕前的你:-)`

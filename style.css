@@ -1,0 +1,68 @@
+/*
+* STYLE CSS!
+*/
+
+* {
+  margin: 0;
+  padding: 0rem;
+}
+body {
+  color: #ddd;
+  background-color: #222;
+  max-width: 750px;
+  margin: 0 auto;
+  font-family: 'Comic Neue', 'Noto Sans SC',
+               'PingFang SC', 'Microsoft YaHei', sans-serif;
+}
+a {
+  color: #6a6aff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+h2 {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 1rem;
+}
+.emoji {
+  margin-right: 6px;
+  vertical-align: middle;
+  width: 1.3em;
+  height: 1.3em;
+  vertical-align: -0.3em;
+  filter: invert(1);
+}
+nav {
+  display: flex;
+  color: #ddd;
+}
+nav a {
+  text-decoration: none;
+  margin-right: 15px;
+  color: #ddd;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: nowrap
+}
+.big_card {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  gap: 1.25rem;
+  background-color: #333;
+  width: fit-content;
+}
+.home {
+  background-color: #444;
+  text-align: center;
+}
+.join ul,
+.repo ul {
+  list-style-type: none;
+}
+footer {
+  text-align: center;
+}
