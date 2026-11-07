@@ -1,36 +1,63 @@
-# WOS网站
+# WOS Studio
 
-#### Description
-WOS工作室的小网页
+A small website for `WOS Studio`.
 
-#### Software Architecture
-Software architecture description
+### Language
 
-#### Installation
+---
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+- English (current).
+- [Chinese](README.md)
 
-#### Instructions
+### What is this?
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+---
 
-#### Contribution
+A website for a small studio.
 
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
+### Tech Stack
 
+---
 
-#### Gitee Feature
+Languages used:
+- `HTML`
+- `CSS`
 
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+Other miscellaneous files:
+- `SVG`
+- `MD`
+
+### How to Deploy
+
+---
+
+There are many ways to do this,
+but because this webpage is so simple,
+you can just open it directly in a browser :-)
+
+If you really want to deploy it, that's fine too. Here we use NPM as an example:
+```bash
+npm run build
+npx http-server dist -a 127.0.0.1 -p 8080
+```
+Then enter `http://127.0.0.1:8080` in your browser. It may be flagged as a virus, but that's normal (this happens with HTTP rather than HTTPS).
+
+### Special Features
+
+---
+
+- It's just a frontend showcase page
+- Uses advanced `SVG` images (advanced how...)
+
+### License
+
+---
+
+`GPL_3.0` license [View details](LICENSE).
+
+### Contributors
+
+---
+
+- `SZQ2268`
+- `You in front of the screen :-)`
