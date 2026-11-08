@@ -22,6 +22,7 @@ A website for a small studio.
 Languages used:
 - `HTML`
 - `CSS`
+- `JS`
 
 Other miscellaneous files:
 - `SVG`
