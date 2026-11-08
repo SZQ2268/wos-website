@@ -3,110 +3,131 @@
 */
 
 * {
-  margin: 0;
-  padding: 0rem;
+    margin: 0;
+    padding: 0rem;
 }
 body {
-  color: #ddd;
-  background-color: #222;
-  max-width: 750px;
-  margin: 0 auto;
-  font-family: 'Comic Neue', 'Noto Sans SC',
-               'PingFang SC', 'Microsoft YaHei', sans-serif;
+    color: #ddd;
+    background-color: #222;
+    max-width: 750px;
+    margin: 0 auto;
+    font-family: 'Comic Neue', 'Noto Sans SC',
+                 'PingFang SC', 'Microsoft YaHei', sans-serif;
 }
 a {
-  color: #6a6aff;
-  text-decoration: none;
+    color: #6a6aff;
+    text-decoration: none;
 }
 a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 h2 {
-  border-bottom: 1px solid #ddd;
-  margin-bottom: 1rem;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 1rem;
 }
 button {
-  color: #ddd;
-  background-color: #222;
-  border: none;
-  border-radius: 6px;
+    color: #ddd;
+    background-color: #222;
+    border: none;
+    border-radius: 6px;
 }
 .copy_btn {
-  position: relative; 
-  padding: 8px 16px;
+    position: relative; 
+    padding: 8px 16px;
 }
 .pop {
-  position: absolute;
-  left: 50%;
-  bottom: calc(100% + 8px); 
-  transform-origin: bottom center;
-  transform: translateX(-50%) scale(0);
-  opacity: 0;
-  color: red;
-  font-weight: bold;
-  white-space: nowrap;
-  pointer-events: none;
-  animation: jack 0.6s forwards;
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + 8px); 
+    transform-origin: bottom center;
+    transform: translateX(-50%) scale(0);
+    opacity: 0;
+    color: red;
+    font-weight: bold;
+    white-space: nowrap;
+    pointer-events: none;
+    animation: jack 0.6s forwards;
 }
 @keyframes jack {
-  0%   { transform: translateX(-50%) scale(0)    rotate(-12deg); opacity: 0; }
-  50%  { transform: translateX(-50%) scale(1.25) rotate(8deg);   opacity: 1; }
-  70%  { transform: translateX(-50%) scale(0.9)  rotate(-4deg); }
-  100% { transform: translateX(-50%) scale(1)    rotate(0);      opacity: 1; }
+    0%   { transform: translateX(-50%) scale(0)    rotate(-12deg); opacity: 0; }
+    50%  { transform: translateX(-50%) scale(1.25) rotate(8deg);   opacity: 1; }
+    70%  { transform: translateX(-50%) scale(0.9)  rotate(-4deg); }
+    100% { transform: translateX(-50%) scale(1)    rotate(0);      opacity: 1; }
 }
 .big_card ul {
-  padding: 1rem;
+    padding: 1rem;
 }
 .logo {
   margin-right: 6px;
-  vertical-align: middle;
-  width: 1.3em;
-  height: 1.3em;
-  vertical-align: -0.3em;
+    vertical-align: middle;
+    width: 1.3em;
+    height: 1.3em;
+    vertical-align: -0.3em;
 }
 .emoji {
-  margin-right: 6px;
-  vertical-align: middle;
-  width: 1.3em;
-  height: 1.3em;
-  vertical-align: -0.3em;
-  filter: invert(1);
+    margin-right: 6px;
+    vertical-align: middle;
+    width: 1.3em;
+    height: 1.3em;
+    vertical-align: -0.3em;
+    filter: invert(1);
 }
+#menu_btn  { display: none; }
 nav {
-  display: flex;
-  color: #ddd;
+    display: flex;
+    color: #ddd;
 }
 nav a {
-  text-decoration: none;
-  margin-right: 15px;
-  color: #ddd;
+    text-decoration: none;
+    margin-right: 15px;
+    color: #ddd;
 }
 nav ul {
-  display: flex;
-  list-style-type: none;
-  flex-wrap: nowrap
+    display: flex;
+    list-style-type: none;
+    flex-wrap: nowrap
 }
 .big_card {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 1rem;
-  gap: 1.25rem;
-  background-color: #333;
-  width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    gap: 1.25rem;
+    background-color: #333;
+    width: fit-content;
 }
 .home {
-  background-color: #444;
-  text-align: center;
-  letter-spacing: 1rem;
+    background-color: #444;
+    text-align: center;
+    letter-spacing: 1rem;
 }
 .errhome {
-  background-color: #444;
-  text-align: center;
+    background-color: #444;
+    text-align: center;
 }
 .join ul,
 .repo ul {
-  list-style-type: none;
+    list-style-type: none;
 }
 footer {
-  text-align: center;
+    text-align: center;
+}
+@media (max-width: 768px) {
+      nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+    }
+    nav li {
+        margin: 5px 0;
+        white-space: nowrap;
+    }
+}
+@media (max-width: 768px) {
+    #btn  { display: block; }
+    #menu {
+      display: none;
+      flex-direction: column;
+    }
+    #menu.show { display: flex; }
 }

@@ -25,3 +25,11 @@ Copy_Btn.addEventListener('click', async () => {
         busy = false;
     }, { once: true });
 });
+
+//briger menu
+const menu_btn = document.getElementById('menu_btn');
+const menu = document.getElementById('menu');
+
+menu_btn.onclick = function () {
+    menu.classList.toggle('show');
+};
