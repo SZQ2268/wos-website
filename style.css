@@ -25,6 +25,9 @@ h2 {
   border-bottom: 1px solid #ddd;
   margin-bottom: 1rem;
 }
+.big_card ul {
+  padding: 1rem;
+}
 .emoji {
   margin-right: 6px;
   vertical-align: middle;
@@ -58,6 +61,7 @@ nav ul {
 .home {
   background-color: #444;
   text-align: center;
+  letter-spacing: 1rem;
 }
 .join ul,
 .repo ul {
