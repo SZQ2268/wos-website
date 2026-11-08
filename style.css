@@ -28,6 +28,8 @@ h2 {
 button {
   color: #ddd;
   background-color: #222;
+  border: none;
+  border-radius: 6px;
 }
 .copy_btn {
   position: relative; 
@@ -96,6 +98,10 @@ nav ul {
   background-color: #444;
   text-align: center;
   letter-spacing: 1rem;
+}
+.errhome {
+  background-color: #444;
+  text-align: center;
 }
 .join ul,
 .repo ul {
