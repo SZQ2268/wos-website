@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="WOS 工作室网页">
     <title>WOS | 工作室</title>
+    <link rel="icon" href="image/favicon.svg">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
-        <p>WOS</p>
+        <img src="image/favicon.svg" class="logo" alt="Logo">
         <ul>
             <li><a href="#"><img src="image/home.svg" class="emoji" alt="">首页</a></li>
             <li><a href="#about"><img src="image/id-card.svg" class="emoji" alt="">关于我们</a></li>
+            <li><a href="#repo"><img src="image/data.svg" class="emoji" alt="">成员</a></li>
             <li><a href="#repo"><img src="image/data.svg" class="emoji" alt="">代码仓库</a></li>
+            <li><a href="#repo"><img src="image/data.svg" class="emoji" alt="">服务器</a></li>
             <li><a href="#join"><img src="image/user.svg" class="emoji" alt="">加入我们</a></li>
         </ul>
     </nav>
@@ -38,7 +41,6 @@
                 <li>当前的技术栈: HTML/ CSS/ JavaScript/ Python/ Java/ Minecraft/ Linux</li>
                 <li>工作室人数: 3人</li>
             </ul>
-            <p>目前没有Minecraft服务器捏……</p>
         </div>
         <div class="pepol" id="pepol">
             <h2><img src="image/id-card.svg" class="emoji"alt="">工作室成员</h2>
@@ -54,6 +56,18 @@
                 <li><img src="image/link.svg" class="emoji" alt=""><a href="https://gitee.com/WOStudio">在Gitee上</a>.</li>
             </ul>
         </div>
+        <div>
+            <h2><img src="image/data.svg" class="emoji" alt="">服务器</h2>
+            <p>Minecraft服务器</p>
+            <h3><img src="image/data.svg" class="emoji" alt="">数据</h3>
+            <ul>
+                <li>服务器网址：
+                    play.simpfun.cn:25621
+                    <button class="copy_btn" id="Copy_Btn"><img src="image/copy.svg" class="emoji" alt="copy"></button>
+                </li>
+                <li><a href="https://pub-4fd1b7b81d2a4acc83a64c8881e0659e.r2.dev/ZIP/1.20.1Desktop.zip">整合包下载</a></li>
+            </ul>
+        </div>
         <div class="join" id="join">
             <h2><img src="image/user.svg" class="emoji" alt="">加入我们</h2>
             <p><img src="image/link.svg" class="emoji"alt=""><a href="https://qun.qq.com/universal-share/share?ac=1&authKey=6ch3iPfLw6p2xuQRlzvmG9akbfSeM1o2cYhb27PPnaHB4spOi/P5WUyNpls8O8hV&busi_data=eyJncm91cENvZGUiOiI0OTQ4NzYzMzUiLCJ0b2tlbiI6IkNhazZ2bDdIaWJMY2d1bzBUL3Q3a2IwcVB0ZkkwS2V1bE1IMGlzU0ZwTTZqMlpYMWxlYkhaUTZ1VGtTdEh5MmMiLCJ1aW4iOiIxNTkwMjE5Mjk5In0=&data=ooB33svU82jr9X1HPlZuPICafDaj7Lhs5bIRn0uQBO4Z3p5Fkv8WE8ZUmu3Qs1vcZaALbphTK16iVEGc9w9e4BAIzSfd6LFMAjNBr0MWnXg&svctype=5&tempid=h5_group_info">QQ</a></p>
@@ -61,9 +75,10 @@
     </div>
     </main>
     <footer>
-        <p>2026 <img src="image/copy.svg" class="emoji" alt="©"><a href="LICENSE">GPL-3.0</a>许可证</p>
+        <p>2026 <img src="image/c.svg" class="emoji" alt="©"><a href="LICENSE">GPL-3.0</a>许可证</p>
         <p>100% Not have AI.</p>
         <p>100% Not have Frame</p>
     </footer>
+    <script src="copy.js"></script>
 </body>
 </html>
